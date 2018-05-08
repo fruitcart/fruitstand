@@ -13,3 +13,4 @@ this is courtesy of the tutorial found [here](https://www.youtube.com/watch?npmv
 ### TODOS
 
 - Change splash screen
+- Fix the multiple navigation errors see [here](https://v2.reactnavigation.org/docs/en/common-mistakes.html)

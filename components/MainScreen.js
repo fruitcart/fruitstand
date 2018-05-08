@@ -17,9 +17,9 @@ import { Icon } from 'native-base';
 
 class MainScreen extends Component {
   static navigationOptions = {
-    headerLeft: <Icon name="ios-camera-outline" style={{ paddingLeft: 10 }} />,
+    headerLeft: <Icon name="ios-camera-outline" style={{ paddingLeft: 15 }} />,
     title: 'fruitstand',
-    headerRight: <Icon name="ios-send-outline" style={{ paddingRight: 10 }} />
+    headerRight: <Icon name="ios-send-outline" style={{ paddingRight: 15 }} />
   };
 
   // our render function, which tells the app what to display
