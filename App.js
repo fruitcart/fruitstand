@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 // For in-app Navigation screen to screen
-import { StackNavigator } from 'react-navigation'
+import { createStackNavigator } from 'react-navigation'
 
 // Screens
 import MainScreen from './components/MainScreen';
@@ -15,7 +15,7 @@ export default class App extends React.Component {
   }
 }
 
-const AppStackNavigator = StackNavigator({
+const AppStackNavigator = createStackNavigator({
   Main : {
     screen: MainScreen 
   } 
