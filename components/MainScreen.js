@@ -12,7 +12,9 @@ import AddMediaTab from './AppTabNavigator/AddMediaTab'
 import LikesTab from './AppTabNavigator/LikesTab'
 import ProfileTab from './AppTabNavigator/ProfileTab'
 
+// Tab Navigator
 import {createBottomTabNavigator} from 'react-navigation';
+// Native Base UI Tools
 import { Icon } from 'native-base';
 
 class MainScreen extends Component {
