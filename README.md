@@ -14,3 +14,8 @@ this is courtesy of the tutorial found [here](https://www.youtube.com/watch?npmv
 
 - Change splash screen
 - Fix the multiple navigation errors see [here](https://v2.reactnavigation.org/docs/en/common-mistakes.html)
+
+
+#### References
+
+React Navigation API, [here](https://v2.reactnavigation.org/docs/en/api-reference.html)

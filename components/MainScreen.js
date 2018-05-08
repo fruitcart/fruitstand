@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
   View,
   Text,
-  StyleSheet
+  StyleSheet,
+  Platform
 } from 'react-native';
 
 // Tab Screens
@@ -13,7 +14,7 @@ import LikesTab from './AppTabNavigator/LikesTab'
 import ProfileTab from './AppTabNavigator/ProfileTab'
 
 // Tab Navigator
-import {createBottomTabNavigator} from 'react-navigation';
+import {createTabNavigator} from 'react-navigation';
 // Native Base UI Tools
 import { Icon } from 'native-base';
 
@@ -35,13 +36,34 @@ class MainScreen extends Component {
 
 export default MainScreen;
 
-const AppTabNavigator = createBottomTabNavigator  ({
-  HomeTab: { screen: HomeTab },
-  SearchTab: { screen: SearchTab },
-  AddMediaTab: { screen: AddMediaTab },
-  LikesTab: { screen: LikesTab },
-  ProfileTab: { screen: ProfileTab }
-});
+const AppTabNavigator = createTabNavigator(
+  {
+    HomeTab: { screen: HomeTab },
+    SearchTab: { screen: SearchTab },
+    AddMediaTab: { screen: AddMediaTab },
+    LikesTab: { screen: LikesTab },
+    ProfileTab: { screen: ProfileTab }
+  },
+  {
+    animationEnabled: true,
+    swipeEnabled: true,
+    tabBarPosition: "bottom",
+    tabBarOptions: {
+      // required to show on android
+      style: {
+        ...Platform.select({
+          android: {
+            backgroundColor: "white"
+          }
+        })
+      },
+      activeTintColor: "#6b52ae", // change this to official fruitstand colors
+      inactiveTintColor: "#000",
+      showLabel: false, // remove the text under tabs
+      showIcon: true
+    }
+  }
+);
 
 
 const styles =  StyleSheet.create({
