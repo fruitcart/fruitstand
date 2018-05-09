@@ -22,3 +22,5 @@ React Navigation API, [here](https://v2.reactnavigation.org/docs/en/api-referenc
 
 Expo Project Lifecylce (or..how to deplot), [here](https://docs.expo.io/versions/v27.0.0/introduction/project-lifecycle)
 Building a Standalone App, [here](https://docs.expo.io/versions/latest/guides/building-standalone-apps.html)
+
+Building our backend [here](https://medium.com/handlebar-labs/graphql-authentication-with-react-native-apollo-part-1-2-9613aacd80b3)
