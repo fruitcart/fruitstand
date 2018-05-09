@@ -12,10 +12,13 @@ this is courtesy of the tutorial found [here](https://www.youtube.com/watch?npmv
 
 ### TODOS
 
-- Change splash screen
+- Change splash screen see [here](https://docs.expo.io/versions/latest/guides/splash-screens.html)
 - Fix the multiple navigation errors see [here](https://v2.reactnavigation.org/docs/en/common-mistakes.html)
 
 
 #### References
 
 React Navigation API, [here](https://v2.reactnavigation.org/docs/en/api-reference.html)
+
+Expo Project Lifecylce (or..how to deplot), [here](https://docs.expo.io/versions/v27.0.0/introduction/project-lifecycle)
+Building a Standalone App, [here](https://docs.expo.io/versions/latest/guides/building-standalone-apps.html)
