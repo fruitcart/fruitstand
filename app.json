@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "fruitstand-app",
+    "name": "farmstand-app",
     "description": "This project is really great.",
-    "slug": "fruitstand-app",
+    "slug": "farmstand-app",
     "privacy": "public",
     "sdkVersion": "27.0.0",
     "platforms": ["ios", "android"],
